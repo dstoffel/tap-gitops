@@ -3,7 +3,7 @@ kind: APIDescriptor
 metadata:
   name: tap-flask
   annotations:
-    local-source-proxy.apps.tanzu.vmware.com: harbor.tap.itq.lab/tap-source/vscode:dev-tap-flask@sha256:f681e93afec137d26c1f8709774b3e72bc520d9456cbf7e9dedefbe8dee54bbf
+    local-source-proxy.apps.tanzu.vmware.com: harbor.tap.itq.lab/tap-source/vscode:dev-tap-flask@sha256:9c1d3ab415392ad8153e09d022f8d206e2bdda5d453cd1cd77ae507bf84e7580
     autoscaling.knative.dev/minScale: "1"
   labels:
     apis.apps.tanzu.vmware.com/register-api: "true"
