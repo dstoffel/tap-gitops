@@ -26,7 +26,7 @@ spec:
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
           spring-boot-convention/app-live-view-appflavour-check
-        developer.apps.tanzu.vmware.com/image-source-digest: harbor.tap.itq.lab/tap-source/vscode:dev-tap-flask@sha256:f681e93afec137d26c1f8709774b3e72bc520d9456cbf7e9dedefbe8dee54bbf
+        developer.apps.tanzu.vmware.com/image-source-digest: harbor.tap.itq.lab/tap-source/vscode:dev-tap-flask@sha256:9c1d3ab415392ad8153e09d022f8d206e2bdda5d453cd1cd77ae507bf84e7580
         developer.conventions/target-containers: workload
         local-source-proxy.apps.tanzu.vmware.com: harbor.tap.itq.lab/tap-source/vscode:dev-tap-flask@sha256:9c1d3ab415392ad8153e09d022f8d206e2bdda5d453cd1cd77ae507bf84e7580
       labels:
@@ -38,7 +38,7 @@ spec:
         carto.run/workload-name: tap-flask
     spec:
       containers:
-      - image: harbor.tap.itq.lab/tap/workloads/tap-flask-dev@sha256:02693f88b3326779f014ab45a35232e3ce4d6abec4ee88185202fe404a5dc0f9
+      - image: harbor.tap.itq.lab/tap/workloads/tap-flask-dev@sha256:cea3bd550f7ebc8d6d156461c99c2db6ef17eb0fdc30a2ffe6a0df4a6e7f7bf7
         name: workload
         resources: {}
         securityContext:
