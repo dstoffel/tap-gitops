@@ -38,7 +38,7 @@ spec:
         carto.run/workload-name: tap-flask
     spec:
       containers:
-      - image: harbor.tap.itq.lab/tap/workloads/tap-flask-dev@sha256:ebc3a59f8b5972c0b9a897b7595193d97487a14e3d84c3730747459b653e329e
+      - image: harbor.tap.itq.lab/tap/workloads/tap-flask-dev@sha256:82a172150827656dadb5f623cca53b83a8a9c0b0baca48d4d314dc812aa003ce
         name: workload
         resources: {}
         securityContext:
