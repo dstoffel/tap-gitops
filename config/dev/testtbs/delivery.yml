@@ -31,7 +31,7 @@ spec:
         carto.run/workload-name: testtbs
     spec:
       containers:
-      - image: harbor.tap.itq.lab/tap/workloads/testtbs-dev@sha256:56c2269b9e4b57a34c1ef088838022178daa3a0c2ffb7279aef0134561f07a09
+      - image: harbor.tap.itq.lab/tap/workloads/testtbs-dev@sha256:5678f5074b846149d86428df4dd9d770180d7261e263c19702c273242476da68
         name: workload
         resources: {}
         securityContext:
